@@ -2,6 +2,10 @@
 
 ## Vanity bitcoin address generator
 
+###Environment
+c++11
+libbitcoin
+
 ### Compilation
 g++ -std=c++11 -o VanityBitcoin VanityBitcoin.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)
 
