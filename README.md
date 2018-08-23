@@ -1,18 +1,19 @@
-# Vanity_bitcoin_address
+# Vanity bitcoin address generator
 
-## Vanity bitcoin address generator
+### Environment
 
-###Environment
 c++11
 libbitcoin
 
 ### Compilation
+
 g++ -std=c++11 -o VanityBitcoin VanityBitcoin.cpp $(pkg-config --cflags libbitcoin --libs libbitcoin)
 
 ### Usage
+
 ./VanityBitcoin \<whatever you want\>
 
-ex:
+#### ex:
 
 ```
 $ ./VanityBitcoin 1Love
