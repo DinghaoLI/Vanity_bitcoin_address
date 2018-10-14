@@ -11,7 +11,7 @@ g++ -std=c++11 -o VanityBitcoin VanityBitcoin.cpp $(pkg-config --cflags libbitco
 
 ### Usage
 
-./VanityBitcoin \<whatever you want\>
+./VanityBitcoin \<address you want\>
 
 #### ex:
 
